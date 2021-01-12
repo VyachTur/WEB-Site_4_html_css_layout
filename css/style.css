@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'), url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'), url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'), url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'), url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
+.header-index {
+  color: white;
+  font-family: ‘Graphik LCG’, sans-serif;
+  margin-bottom: 30px;
+}
+
+.link {
+  padding: 20px;
+  color: white;
+  border: solid;
+  border-width: 3px;
+  display: inline-block;
+}
+
+.download-link {
+  background-color: #2f1ce4;
+  border-color: #2f1ce4;
+}
+
+.more-link {
+  background-color: transparent;
+  border-color: white;
+}
+
+.container-program {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.link-back {
+  padding-left: 32px;
+  background-image: url("../img/return.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  font-size: 18px;
+}
+
+.header-program {
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+.header-skillbox {
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.list-program {
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+.paragraph {
+  padding-left: 180px;
+  padding-bottom: 20px;
+}
+
+.table {
+  border: 1px solid #000;
+  margin-top: 100px;
+  border-collapse: collapse;
+}
+
+.table th {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.table td {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.figure-format {
+  padding-left: 200px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img-width {
+  max-width: 400px;
+}
+
+.container-modules {
+  width: 1180px;
+  margin: 0 auto;
+  padding-top: 58px;
+}
+
+.container-main {
+  width: 1020px;
+  padding-top: 104px;
+  padding-left: 84px;
+}
+
+.header1-modules {
+  margin: 0;
+  padding-left: 24px;
+  margin-bottom: 83px;
+  width: 710px;
+  height: 42px;
+  font-size: 48px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  font-weight: 800;
+}
+
+.header2-modules {
+  padding-bottom: 60px;
+  width: 235px;
+  height: 42px;
+  font-size: 40px;
+  letter-spacing: 0px;
+  line-height: 56px;
+  font-weight: 500;
+}
+
+.body-modules-vawe {
+  background-image: url("../img/modules/wave.svg");
+  /* background-size: contain; */
+  /* background-size: auto; */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 623px;
+}
+
+
+
+
+.list-modules {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.child-modules {
+  display: inline-block;
+  width: 481px;
+  min-height: 506px;
+  border: 1px solid #000;
+  margin: 0 18px 18px 0;
+  /* margin-right: 46px;
+  margin-bottom: 20px; */
+  vertical-align: middle;
+  position: relative;
+}
+
+.number-modules {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 48px;
+  color: #eaeaea;
+  font-weight: 500;
+  text-align: right;
+}
+
+.parent-modules {
+  width: inherit;
+  margin: 0 auto;
+}
+
+.right-modules {
+  margin-right: 0;
+}
+
+.btn-center-modules {
+  text-align: center;
+}
+
+.img-modules-01 {
+  background-image: url("../img/modules/photo-01.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0;
+}
+
