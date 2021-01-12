@@ -85,7 +85,7 @@ a {
 }
 
 .link-back {
-  padding-left: 32px;
+  padding-left: 44px;
   background-image: url("../img/return.png");
   background-size: 20px 20px;
   background-repeat: no-repeat;
@@ -110,6 +110,7 @@ a {
 .list-program {
   padding-left: 200px;
   font-size: 18px;
+  margin-bottom: 40px;
 }
 
 .paragraph {
@@ -119,7 +120,7 @@ a {
 
 .table {
   border: 1px solid #000;
-  margin-top: 100px;
+  margin-top: 80px;
   border-collapse: collapse;
 }
 
@@ -161,53 +162,40 @@ a {
   margin: 0;
   padding-left: 24px;
   margin-bottom: 83px;
-  width: 710px;
-  height: 42px;
   font-size: 48px;
-  letter-spacing: 0px;
-  line-height: 56px;
   font-weight: 800;
 }
 
-.header2-modules {
-  padding-bottom: 60px;
-  width: 235px;
-  height: 42px;
+.text-skillbox-modules {
   font-size: 40px;
-  letter-spacing: 0px;
-  line-height: 56px;
   font-weight: 500;
+  margin-bottom: 60px;
 }
 
 .body-modules-vawe {
   background-image: url("../img/modules/wave.svg");
-  /* background-size: contain; */
-  /* background-size: auto; */
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 623px;
 }
 
-
-
-
 .list-modules {
   padding: 0;
-  margin: 0;
+  margin: 0 0 97px 0;
   list-style: none;
   font-size: 0;
 }
 
 .child-modules {
   display: inline-block;
-  width: 481px;
+  width: 480px;
   min-height: 506px;
-  border: 1px solid #000;
-  margin: 0 18px 18px 0;
-  /* margin-right: 46px;
-  margin-bottom: 20px; */
+  margin: 0 56px 56px 0;
+  padding-top: 176px;
   vertical-align: middle;
   position: relative;
+  filter: drop-shadow(-2.853px 0.927px 10px rgba(83, 83, 83, 0.31));
+  background-color: #ffffff;
 }
 
 .number-modules {
@@ -223,20 +211,83 @@ a {
 .parent-modules {
   width: inherit;
   margin: 0 auto;
+  align-content: center;
 }
 
 .right-modules {
   margin-right: 0;
 }
 
+.bottom-modules {
+  margin-bottom: 0;
+}
+
 .btn-center-modules {
   text-align: center;
 }
 
-.img-modules-01 {
-  background-image: url("../img/modules/photo-01.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 0;
+.btn-design-modules {
+  width: 280px;
+  height: 80px;
+  border-radius: 2px;
+  background-color: white;
+  border: 3px solid #2f1ce4;
+  font-size: 18px;
+  color: #2f1ce4;
 }
 
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.sublist-modules {
+  padding: 29px 0 0 52px;
+  background-color: white;
+  min-height: 330px;
+}
+
+.modules-card-header {
+  font-size: 36px;
+  color: #2f1ce4;
+  font-weight: 800;
+  line-height: 56px;
+}
+
+.modules-card-sublist {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+  color: #222020;
+}
+
+.img-card-01 {
+  background-image: url("../img/modules/photo-01.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.img-card-02 {
+  background-image: url("../img/modules/photo-02.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.img-card-03 {
+  background-image: url("../img/modules/photo-03.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: -280px -420px;
+}
+
+.img-card-04 {
+  background-image: url("../img/modules/photo-04.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0 -180px;
+}
